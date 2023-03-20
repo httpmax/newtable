@@ -10,7 +10,7 @@ export default function App() {
 
   const handleShowCode = () => {
     setShowCode(true);
-    /* navigator.clipboard.writeText(`<table>
+    /*navigator.clipboard.writeText(`<table>
     <tbody>
       ${tableData
         .map(
@@ -25,7 +25,7 @@ export default function App() {
         .join("\n")}
     </tbody>
   </table>`);
-    toast.success('Copied to Clipboard', {autoClose: 2000,hideProgressBar: true}) */
+    toast.success('Copied to Clipboard', {autoClose: 2000,hideProgressBar: true})*/
   };
 
   const handleInputChange = (event) => {
@@ -257,7 +257,7 @@ export default function App() {
                 }
             >
               <MdContentCopy size={25 } className="" />
-            </button> */
+            </button>*/
             {`<table>
     <tbody>
       ${tableData
