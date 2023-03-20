@@ -40,3 +40,7 @@
 .flex.justify-center.my-5 button {
     display: none !important;
 }
+
+.flex.justify-center.my-5 svg {
+    display: none !important;
+}
