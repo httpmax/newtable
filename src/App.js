@@ -10,7 +10,7 @@ export default function App() {
 
   const handleShowCode = () => {
     setShowCode(true);
-    navigator.clipboard.writeText(`<table>
+    /* navigator.clipboard.writeText(`<table>
     <tbody>
       ${tableData
         .map(
@@ -25,7 +25,7 @@ export default function App() {
         .join("\n")}
     </tbody>
   </table>`);
-    toast.success('Copied to Clipboard', {autoClose: 2000,hideProgressBar: true})
+    toast.success('Copied to Clipboard', {autoClose: 2000,hideProgressBar: true}) */
   };
 
   const handleInputChange = (event) => {
@@ -233,7 +233,7 @@ export default function App() {
         <div className="flex justify-center my-5">
 
           <code className=" max-w-[80%] bg-gray-100 p-5 rounded font-mono text-[12px] text-gray-500 relative">
-            <button
+           /*<button
                 className="absolute right-3 top-1 hover:bg-gray-300 p-2 "
                 title="Copy to Clipboard"
                 onClick={() => {
@@ -257,7 +257,7 @@ export default function App() {
                 }
             >
               <MdContentCopy size={25 } className="" />
-            </button>
+            </button> */
             {`<table>
     <tbody>
       ${tableData
