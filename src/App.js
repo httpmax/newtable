@@ -233,32 +233,7 @@ export default function App() {
         <div className="flex justify-center my-5">
 
           <code className=" max-w-[80%] bg-gray-100 p-5 rounded font-mono text-[12px] text-gray-500 relative">
-           /*<button
-                className="absolute right-3 top-1 hover:bg-gray-300 p-2 "
-                title="Copy to Clipboard"
-                onClick={() => {
-                  navigator.clipboard.writeText(`<table>
-    <tbody>
-      ${tableData
-                      .map(
-                          (row) => `<tr>
-            ${Object.entries(row)
-                              .map((item, i) => {
-                                return i === 0 ? `<th>${item[1]}</th>` : `<td>${item[1]}</td>`;
-                              })
-                              .join("")}
-          </tr>`
-                      )
-                      .join("\n")}
-    </tbody>
-  </table>`);
-                  toast.success('Copied to Clipboard', {autoClose: 2000,hideProgressBar: true})
-                }
-                }
-            >
-              <MdContentCopy size={25 } className="" />
-            </button>*/
-            {`<table>
+{`<table>
     <tbody>
       ${tableData
         .map(
