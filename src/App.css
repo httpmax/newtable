@@ -38,5 +38,5 @@
 }
 
 .flex.justify-center.my-5 button {
-    display: none;
+    display: none !important;
 }
